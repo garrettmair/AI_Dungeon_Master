@@ -1,0 +1,73 @@
+h1{
+    font-size:100px;
+    text-align: center;
+    color: darkred;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
+h2{  
+    color:darkred;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
+p{
+    font-size:20px;
+    text-align: center;
+    color: darkred;
+    text-shadow: 0px 1px 0px rgb(167, 117, 117);
+}
+.container {
+    display: flex;
+    align-items: center;      /* Vertically centers items */
+    justify-content: center;  /* Horizontally centers items */
+    height: 7vh;            /* Optional: Makes the container take the full viewport height */
+    text-align: center;       /* Ensures text inside flex items aligns well */
+    background-color: rgb(255, 184, 184);
+}
+
+.container img {
+    margin-left: 10px;        /* Adds spacing between the text and the image */
+    width: 75px;              /* Set image width */
+    height: 75px;             /* Set image height */
+}
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 20, 16);
+}
+
+.left-image, .right-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px; /* Adds spacing between the images and text */
+}
+
+.title {
+    margin: 0; /* Removes default margin on the heading */
+}
+body{
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1066591612/thumb/1.jpg?ip=x480);
+    background-size: cover;
+}
+.Links {
+    display: flex;
+    align-items: center;      /* Vertically centers items */
+    justify-content: center;  /* Horizontally centers items */
+    height: 3vh;            /* Optional: Makes the container take the full viewport height */
+    text-align: center;       /* Ensures text inside flex items aligns well */
+    margin-right: 3%;  
+}
+.Links a{
+    margin-left: 1%;
+    margin-right: 1%;
+    color: darkred;
+}
+.group{
+    background-color: rgb(255, 184, 184);
+}
+a:hover {
+    font-size: 20px;      /* Increase the font size when hovered */
+    color: red;       /* Optional: Change link color on hover */
+}
+img{
+    margin-left: 40%;
+}
